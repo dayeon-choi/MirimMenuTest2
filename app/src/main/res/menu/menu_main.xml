@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="kr.hs.emirim.s2019w18.mirimmenutest2.MainActivity">
+    <item
+        android:id="@+id/item_rotate"
+        android:title="image lotation"
+        />
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_one"
+            android:title="one"
+            />
+        <item
+            android:id="@+id/item_two"
+            android:title="two"
+            />
+        <item
+            android:id="@+id/item_three"
+            android:title="three"
+            />
+    </group>
+</menu>
